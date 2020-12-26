@@ -3,14 +3,15 @@ layout: post
 title:  "Windows 注册表"
 date:   2020-12-25 14:23:19 +0800
 categories: blog
+published: true
 ---
 
-> 文章参考了许多网络上的资文献，所引用的文献地址可在文章中找到。阅读本文你可以理解 Windows 注册表是什么，注册表的用途以及实用注册表技巧。
+> 博主参考了网络上的许多文献后的总结，所引用的文献地址可在文章中找到。阅读本文你可以理解 Windows 注册表是什么，注册表的用途以及实用注册表技巧。
 
 ## 简介 
 
 ### 注册表
-Windows 注册表存储了系统和用户的配置信息，通过添加或删除它们，可以达到调整系统设置的目的，包括可以找到的和隐藏的设置项。
+Windows 注册表存储了系统和用户的配置信息，添加或删除它们，可达到调整系统设置的目的，包括能找到的和隐藏的设置项。
 
 删除无用的注册表信息不会带来系统性能的提升，但错误的删除可能会导致系统的损坏，因此修改注册表前请[创建系统还原点](https://www.howtogeek.com/howto/windows-vista/create-a-restore-point-for-windows-vistas-system-restore)。 
 
