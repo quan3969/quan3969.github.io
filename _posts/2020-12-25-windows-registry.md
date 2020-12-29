@@ -3,7 +3,6 @@ layout: post
 title:  "Windows 注册表"
 date:   2020-12-25 14:23:19 +0800
 categories: blog
-published: true
 ---
 
 > 博主参考了网络上的许多文献后的总结，所引用的文献地址可在文章中找到。阅读本文你可以理解 Windows 注册表是什么，注册表的用途以及实用注册表技巧。

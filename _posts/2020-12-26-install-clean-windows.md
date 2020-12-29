@@ -3,7 +3,6 @@ layout: post
 title:  "安装原版 Windows"
 date:   2020-12-26 15:29:49 +0800
 categories: blog
-published: true
 ---
 
 ### 制作安装盘 
