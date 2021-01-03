@@ -10,7 +10,7 @@ permalink: /csgo
 
 注意：此 CSGO 自动配置文件并 **不是外挂**，只是帮助玩家自动设置游戏，免去为了每次换机器或重装游戏后都要重新配置的烦恼。
 
-[下载配置文件](assets\csgo\cfg_v0.9.zip)
+[下载配置文件](assets\csgo\cfg_v1.0.zip)
 
 ## 常用指令
 * 连接至指定服务器
@@ -58,10 +58,10 @@ volume 1
 video.txt 文件是游戏启动时自动加载的。
 
 ### 使用方法
-1. 运行一次游戏，使其生成默认配置文件
-2. 解压下载到的配置文件，并放在 `X:\Steam\userdata\yourID\730\local\cfg` 下，提示文件重复时，选择全部替换
-3. 添加游戏启动项：`+exec auto.cfg`
-
+1. 解压下载到的配置文件，并放在 `X:\Steam\userdata\yourID\730\local\cfg` 下，提示文件重复时，选择全部替换
+2. 添加游戏启动项：`+exec auto.cfg`
+	![startup](assets/img/2020-12-29-csgo-auto-script/startup.gif)
+3. 运行游戏并在命令控制台中输入 auto
 
 ## 游戏设置
 
@@ -109,6 +109,7 @@ r_dynamic "1"
     ```c
     sensitivity "0.55"
     ```
+	![sensitivity](assets/img/2020-12-29-csgo-auto-script/sensitivity.gif)
 
 ### 小地图设置
 ```c
@@ -116,7 +117,7 @@ cl_radar_always_centered "0"
 cl_radar_icon_scale_min "0.7"
 cl_radar_scale "0.3"
 ```
-
+![radar](assets/img/2020-12-29-csgo-auto-script/radar.gif)
 ### 按键绑定设置
 
 * 清除弹壳和血迹: “F”
@@ -178,6 +179,7 @@ snd_music_selection "2"
 snd_mvp_volume "0"
 snd_tensecondwarning_volume "0.1"
 ```
+![volume](assets/img/2020-12-29-csgo-auto-script/volume.gif)
 
 ### 准星设置 
 可通过 [NBCSGO](https://www.nbcsgo.com/zx) 进行自定义
@@ -200,6 +202,7 @@ cl_fixedcrosshairgap "-2"
 cl_crosshair_outlinethickness "1"
 cl_crosshair_drawoutline "1"
 ```
+![crosshair](assets/img/2020-12-29-csgo-auto-script/crosshair.gif)
 
 * 投掷物准星
 
@@ -219,6 +222,7 @@ cl_fixedcrosshairgap "-4"
 cl_crosshair_outlinethickness "0"
 cl_crosshair_drawoutline "0"
 ```
+![crosshair2](assets/img/2020-12-29-csgo-auto-script/crosshair2.gif)
 
 ### 跑图配置
 使用此 cfg 文件前，先输入 map de_xxx 或 map cs_xxx 进入 C4 图或人质图。
@@ -230,42 +234,49 @@ cl_crosshair_drawoutline "0"
 道具回溯：“BackSpace键”。
 
 ### BOT 练习配置
-同上，进入地图后输入 `prtbot` 进行机器人练习。
+同上，进入地图后输入 `bot` 进行机器人练习。
+
+人物飞行：“T”。
 
 爆破模式请选择 T，添加敌人 CT: “+”。
 
 人质模式选择 CT，添加敌人 T: “-”。
 
 ## 视频设置
-游戏视频设置的配置文件有 `videodefaults.txt` 和 `video.txt`，它们都位于 `X:\Steam\userdata\yourID\730\local\cfg` 下。修改 `video.txt` 可以更改游戏视频设置。
+游戏视频设置的配置文件有 `videodefaults.txt` 和 `video.txt`，它们都位于 `X:\Steam\userdata\yourID\730\local\cfg` 下。
+
+修改 `video.txt` 可以更改游戏视频设置。通常视频设置遵循默认设置即可，这里设置为 1024x768 全屏，不管信不信这个设置能让你看人物更清楚、帧数更高。
 
 ```JSON
 "config"
 {
-	"setting.csm_quality_level"         "0"
-	"setting.mat_software_aa_strength"  "1"
 	"setting.fullscreen"                "1"
-	"setting.nowindowborder"            "0"
-	"setting.aspectratiomode"           "1"
-	"setting.mat_vsync"                 "0"
-	"setting.mat_triplebuffered"        "0"
-	"setting.mat_monitorgamma"          "2.200000"
-	"setting.mat_queue_mode"            "-1"
-	"setting.mat_motion_blur_enabled"   "0"
-	"setting.gpu_mem_level"             "2"
-	"setting.gpu_level"                 "3"
-	"setting.mat_antialias"             "8"
-	"setting.mat_aaquality"             "0"
-	"setting.mat_forceaniso"            "1"
-	"setting.cpu_level"                 "1"
-	"setting.videoconfig_version"       "1"
-	"setting.mem_level"                 "2"
-	"setting.defaultres"                "1920"
-	"setting.defaultresheight"          "1080"
-	"setting.r_player_visibility_mode"  "1"
-	"setauto.mat_enable_uber_shaders"   "1"
+	"setting.defaultres"                "1024"
+	"setting.defaultresheight"          "768"
 }
 ```
 
 ## 创意工坊地图推荐
+* **FPS Benchmark** 跑分专用图
 
+![mapFpsBenchmark](assets/img/2020-12-29-csgo-auto-script/mapFpsBenchmark.gif)
+
+* **Skills Tranining Map** 全能练习图，竞技前热身专用
+
+![mapCsgoHub](assets/img/2020-12-29-csgo-auto-script/mapCsgoHub.gif)
+
+* **Aim Botz - Traning** 老牌经典 BOT 练习图
+
+![mapAimBotz](assets/img/2020-12-29-csgo-auto-script/mapAimBotz.gif)
+
+* **crzshz' Crosshair Generator v3** 准星配置图
+
+![mapCrosshair](assets/img/2020-12-29-csgo-auto-script/mapCrosshair.gif)
+
+* **Config Generator** 配置自定义图
+
+![mapConfig](assets/img/2020-12-29-csgo-auto-script/mapConfig.gif)
+
+* **Yprac Inferno Guide** 训练图系列，让你精通地图的各个细节
+
+![mapYprac](assets/img/2020-12-29-csgo-auto-script/mapYprac.gif)
