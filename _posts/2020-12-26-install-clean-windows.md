@@ -4,6 +4,7 @@ title:  "安装原版 Windows"
 date:   2020-12-26 15:29:49 +0800
 categories: blog
 ---
+> Windows 随着使用时间变长，积累的冗余文件变多，程序和服务变多，这就导致电脑的运行速度变慢。此时重装系统就能获得原本飞快的体验。
 
 ### 制作安装盘 
 #### 下载最新镜像
@@ -24,6 +25,10 @@ categories: blog
     （*UEFI 只 FAT32 格式的启动，如果使用 NTFS, exFAT启动，需要在 BIOS 中更改设置。* ） 
 
     ![FormatDisk](/assets/img/2020-12-26-install-clean-windows\2020-12-26-format.gif)
+
+    如果 U 盘大小超过 32G，可能会导致无法格式成 FAT32 格式，有以下两种解决方法：
+    1. 格式化成 NTFS 格式，并用非 UEFI 的方法启动。
+    2. 用第三方硬盘工具软件，这里推荐 [DiskGenius](https://www.diskgenius.cn). 它包含免费版本，不管多大容量，能轻松格式化成 FAT32 格式。
 
 2. 把镜像里所有文件复制到 U 盘根目录下。若提示有个文件大于 4GB 不可复制，则进行镜像分割。
 
