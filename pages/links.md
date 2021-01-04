@@ -1,6 +1,6 @@
 ---
-layout: page
-title: 链接
+layout: favorites_1_4_21
+# title: 链接
 permalink: /links
 ---
 
