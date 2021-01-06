@@ -34,11 +34,12 @@ github_username: quan3969
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-  skin: solarized-dark
+  skin: solarized
+  # generate social links in footer
+  social_links:
+    github:  quan3969
 
-# generate social links in footer
-social_links:
-  github:  jekyll
+
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
