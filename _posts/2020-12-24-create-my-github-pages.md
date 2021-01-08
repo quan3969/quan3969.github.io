@@ -5,7 +5,7 @@ date:   2020-12-24 09:12:19 +0800
 categories: blog
 ---
 
-> 背景：博主是印象笔记的重度用户，常常用笔记记录生活、写文章、临时保存东西等，不得不说这是一款非常好的软件。但在分享笔记方面还有有待改善，例如如果你想分享笔记，需要对方也是印象笔记用户；在他人的电脑上查找自己的笔记需要下载软件和登录。为了更好的可访问性，于是尝试使用 Github-Pages。
+> 博主是印象笔记的重度用户，常常用笔记记录生活、写文章、临时保存东西等，不得不说这是一款非常好的软件。但在分享笔记方面还有有待改善，例如如果你想分享笔记，需要对方也是印象笔记用户；在他人的电脑上查找自己的笔记需要下载软件和登录。为了更好的可访问性，于是尝试使用 Github-Pages。
 
 ### 关于 Github-Pages 
 [Github-Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages) 允许用户将库里的 HTML, CSS, JavaScript 文件编译成可访问的静态网页，并可通过 xxx.github.io 访问。

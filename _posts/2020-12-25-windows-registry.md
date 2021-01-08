@@ -6,7 +6,9 @@ categories: blog
 ---
 
 > Windows 注册表是 Windows 操作系统的精髓。要玩转 Windows，了解 Windows 注册表必不可少。
+
 本文分为简介、实用注册表和管理右键菜单三部分。阅读本文你可以理解 Windows 注册表是什么，注册表的用途以及实用注册表技巧。
+
 ## 简介 
 
 ### 注册表
