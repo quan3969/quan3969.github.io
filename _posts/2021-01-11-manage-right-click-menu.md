@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "如何管理右键菜单项"
+date:  2021-01-11 15:32:11 +0800  
+categories: blog
 ---
 
 > 右键菜单项太多太杂？用 Autoruns 工具轻松清理。
@@ -21,3 +23,10 @@ Autoruns 由微软本部开发者开发，相对小众，但不影响它强大�
 但此工具似乎只检测 *.dll 文件的右键菜单项，像 VSCode *.exe 的启动并不能检测到。
 
 ### 实操
+删除此右键菜单中的“PowerRename”。
+
+![rightClickMenu](/assets/img/manage-right-click-menu/rightClickMenu.gif)
+
+操作如下：
+
+![autoruns](/assets/img/manage-right-click-menu/autoruns.gif)
