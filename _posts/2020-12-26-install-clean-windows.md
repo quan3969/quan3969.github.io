@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "安装原版 Windows"
+title:  "安装原版 Windows 10 系统"
 date:   2020-12-26 15:29:49 +0800
 categories: blog
 ---
