@@ -10,7 +10,24 @@ permalink: /csgo
 
 注意：此 CSGO 自动配置文件并 **不是外挂**，只是帮助玩家自动设置游戏，免去为了每次换机器或重装游戏后都要重新配置的烦恼。
 
-[下载配置文件](assets\csgo\cfg_v1.0.zip)
+### 使用方法
+1. 解压下载到的配置文件，并放在 `X:\Steam\userdata\yourID\730\local\cfg` 下，提示文件重复时，选择全部替换
+2. 添加游戏启动项：`+exec auto.cfg`
+	![startup](assets/img/2020-12-29-csgo-auto-script/startup.gif)
+3. 运行游戏并在命令控制台中输入 auto
+
+### 更新日志
+
+* [cfg_v1.1](https://github.com/quan3969/csgo_auto_config/archive/main.zip)
+  
+* cfg_v1.0
+  精简了许多东西，自己用的舒服的 v1.0 版。
+
+* cfg_v0.9
+  发布前的早期版本。
+
+* cfg_v0.9
+  很早以前从网上下载的配置文件，应该是 [purp1e](https://github.com/Purple-CSGO/Cfg-Preset-By-Purp1e) 制作的。经过了自己的一些自定义后打包的版本。
 
 ## 常用指令
 * 连接至指定服务器
@@ -56,12 +73,6 @@ volume 1
 通过添加启动项运行，文件中需包含 `host_writeconfig;`，以实现自动加载。
 
 video.txt 文件是游戏启动时自动加载的。
-
-### 使用方法
-1. 解压下载到的配置文件，并放在 `X:\Steam\userdata\yourID\730\local\cfg` 下，提示文件重复时，选择全部替换
-2. 添加游戏启动项：`+exec auto.cfg`
-	![startup](assets/img/2020-12-29-csgo-auto-script/startup.gif)
-3. 运行游戏并在命令控制台中输入 auto
 
 ## 游戏设置
 
