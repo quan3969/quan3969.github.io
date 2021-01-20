@@ -10,6 +10,8 @@ permalink: /csgo
 
 注意：此 CSGO 自动配置文件并 **不是外挂**，只是帮助玩家自动设置游戏，免去为了每次换机器或重装游戏后都要重新配置的烦恼。
 
+**[下载最新版本](https://github.com/quan3969/csgo_auto_config/archive/main.zip)**
+
 ### 使用方法
 1. 解压下载到的配置文件，并放在 `X:\Steam\userdata\yourID\730\local\cfg` 下，提示文件重复时，选择全部替换
 2. 添加游戏启动项：`+exec auto.cfg`
@@ -18,16 +20,23 @@ permalink: /csgo
 
 ### 更新日志
 
-* [cfg_v1.1](https://github.com/quan3969/csgo_auto_config/archive/main.zip)
-  
-* cfg_v1.0
-  精简了许多东西，自己用的舒服的 v1.0 版。
+* 2021.01.19
+  * 由于游戏更新，多人游戏中 Bot 不再动作。因此移除了 practiceBot。
+  * 去掉了投掷物准星，因为用的太少了。
+  * 调低灵敏度到 0.45.
+  * "z" 唤出雷达消息改为传统。
+  * 增加了新准星，如今有 3 个准星，并且运行 auto 不再覆盖准星。
+  * 取消按 "E" 进购买菜单。
+  * F1~F3 分别改为烟、火、诱饵。
+  * 默认改为观战时查看所有人的准星。
+  * "c" 键换道具准星，改为放大小地图，同时小地图调大了一点。
+  * "F, E" 现在都绑定了一键清血迹。
+  * prt 配置增加 "\" 键加快时间，不用等待烟雾散了。
+  * prt 配置增加获取位置和传送到特定位置的方法。
+  * prt 配置增加 kni 指令，获取所有原版刀。
 
-* cfg_v0.9
-  发布前的早期版本。
-
-* cfg_v0.9
-  很早以前从网上下载的配置文件，应该是 [purp1e](https://github.com/Purple-CSGO/Cfg-Preset-By-Purp1e) 制作的。经过了自己的一些自定义后打包的版本。
+* 2020.12.29
+  * 很早以前从网上下载的配置文件，应该是 [purp1e](https://github.com/Purple-CSGO/Cfg-Preset-By-Purp1e) 制作的。经过了自己的一些自定义后打包，精简了许多东西，自己用的舒服的版本。
 
 ## 常用指令
 * 连接至指定服务器
@@ -58,6 +67,11 @@ sensitivity 0.55
 * 设置音量
 ```c
 volume 1
+```
+
+* 立即自杀
+```c
+kill
 ```
 
 ## 文件说明
@@ -92,6 +106,16 @@ spec_replay_autostart "1"
 * 关闭拾取武器自动切换 
 ```c
 cl_autowepswitch "0"
+```
+
+* 取消按 "E" 进入购买菜单
+```c
+cl_use_opens_buy_menu "0"
+```
+
+* 查看所有人的自定义准星
+```c
+cl_show_observer_crosshair "2"
 ```
 
 * 启用命令控制台 
@@ -161,6 +185,11 @@ bind "MOUSE5" "+voicerecord"
 alias "+crosshair_throw" "exec crosshair_throw.cfg"
 alias "-crosshair_throw" "exec crosshair.cfg"
 bind "c" "+crosshair_throw"
+```
+
+* 放大小地图，看清混烟敌人和火、雷后的敌人：“C”
+```c
+bind "c" "toggle cl_radar_scale 1.0 0.4"
 ```
 
 * 道具切换：“F1~F5”
