@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CPU 指令集"
-# date:  2021-01-19 13:24:54 +0800  
+date:  2021-01-21 16:57:55 +0800  
 categories: blog
 ---
 
@@ -14,17 +14,17 @@ categories: blog
 
 这分别是 10 代 和 11 代低压 CPU 的参数信息，11 代 CPU 明显比 10 代多支持了一项指令集 AVX-512 的指令集。
 
-但业界对这套指令集众说纷纭，有人觉得这是 CPU 的未来，有人却认为这没什么作用，甚至会拖慢电脑的运行速度（参考这篇[知乎文章](https://www.zhihu.com/question/406517759)）。
+业界对这套指令集众说纷纭，有人觉得这是 CPU 的未来，认为这会推动 AI 的发展；有人却认为这没什么作用，使用 AVX-512 后主频甚至会下降，拖慢电脑的运行速度（参考这篇[知乎文章](https://www.zhihu.com/question/406517759)）。
 
-同主频下，要想提高 CPU 性能，即 IPC，由以下三条路可走：
+可见，CPU 指令集对 CPU 的影响不容忽视。其实在同主频下，要想提高 CPU 性能，即 IPC，由以下三条路可走：
 1. 更多的 ALU 计算单元。
 2. 更强的 SIMD 指令集。
 3. 优化告诉缓存和分支预测等 CPU 微结构。
 
-本篇我们主要讲述 CPU 的指令集
+本篇我们主要讲述提升 CPU 性能的第二条路的：指令集。
 
 ### CPU 指令集
-对于台式机或传统 x86-64 的 PC，Instructions Set 主要包括以下几种：
+对于台式机或传统 x86-64 的 CPU，Instructions Set 主要包括以下几种：
 1. CPU instructions
 2. FPU instructions
 3. SIMD instructions
@@ -35,7 +35,7 @@ categories: blog
 8. VMX instructions
 
 
-在我以前做微机实验，用汇编写程序驱动 8086 时，首次接触到 mov, pop, push 等低级语言的语句。这是能被机器直接翻译并执行的代码，也是最底层，反汇编后能看到的代码。其实当时就应该知道，这就是 x86 的指令集，当然这是指一套指令集，其他也一样。
+在以前做微机实验，我们用汇编写程序驱动 8086 时，首次接触到 mov, pop, push 等低级语言的语句。这是能被机器直接翻译并执行的代码，也是最底层，反汇编后能看到的代码。其实当时就应该知道，这就是 x86 的指令集，当然这是指一套指令集，其他也一样。
 
 图中，CPU 指令集有 x86, x86-64, MMX, SSE, SSE2, SSE3, SSE4.2, AVX, AVX2, [AVX-512](https://www.intel.com/content/www/us/en/support/articles/000005779/processors.html), FMA, AES, SHA.
 
@@ -45,7 +45,7 @@ MMX 是 [SMID](http://linasm.sourceforge.net/docs/instructions/index.php)(single
 
 这些指令集都大大提高了机器处理语音、图像等需要矢量计算的能力。
 
-剩下的 FMA, AES, SHA 指令集有它们特定的处理情景。如 AES 就是对软件加密和解密的指令集，有了这套指令能大大加速处理速度。
+剩下的 FMA, AES, SHA 指令集有它们特定的处理情景。如 AES 就是对软件加密和解密的指令集，有了这套指令能大大加快处理速度。
 
 那么机器是怎么利用这些指令集的呢？这里就牵扯到编译了，微软家的最强 IDE-Visual Studio 它能指定所运用的编译语言和编译优化。
 
