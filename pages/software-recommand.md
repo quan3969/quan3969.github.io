@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "实用软件推荐"
+permalink: /software
 ---
 
 > 博主使用过的、觉得不错的软件，推荐给同样喜欢探索的你。
