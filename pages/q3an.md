@@ -7,4 +7,4 @@ permalink: /q3an
 
 * **[收藏夹](/links)** 
 
-* **[Samsung](/software)** 
+* **[Samsung](/samsung)** 
