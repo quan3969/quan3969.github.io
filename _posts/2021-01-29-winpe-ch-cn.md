@@ -9,7 +9,7 @@ categories: blog
 
 原版 WinPE 一般是英文不带任何驱动或组件的，启动后就只有简单的 CMD。
 
-要想显示中文字符或运行带有中文字符的脚本文件，一般需要满足三个条件：添加中文包，脚本文件以 GBK 格式保存，CMD 页面设置成支持中文。
+要想显示中文字符或运行带有中文字符的脚本文件，一般需要满足三个条件：[添加中文包](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference)，脚本文件以 GBK 格式保存，CMD 页面设置成支持中文。
 
 #### 添加中文包
 
