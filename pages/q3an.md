@@ -8,7 +8,6 @@ permalink: /q3an
 
 * **[收藏夹](/links)** 
 
-<<<<<<< HEAD
 ### Samsung
 * **[Windows Update](/samsung/wu)** 
 
@@ -21,6 +20,3 @@ permalink: /q3an
 * **[TGL Projects](/samsung/tgl)** 
 
 * **[RKL Projects](/samsung/rkl)** 
-=======
-* **[Samsung](/samsung)** 
->>>>>>> 40e72f0504a3865dca0206340b97fd4b62e6291d
