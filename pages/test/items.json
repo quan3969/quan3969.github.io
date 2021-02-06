@@ -1,0 +1,63 @@
+{"item": {
+    "bkc": [
+        {
+            "kitnumber": "1002185",
+            "plaftorm": "AlderLake-S 8+0 / 8+8",
+            "date": "WW05'2021",
+            "chipset": "10.1.18634.8254",
+            "csme": "16.0.0.1276",
+            "dptf": "8.8.10399.19041",
+            "hid": "2.2.1.384",
+            "sio": "30.100.2102.1" 
+        },
+        {
+            "kitnumber": "1002236",
+            "plaftorm": "TigerLake H81",
+            "date": "WW06'2021",
+            "chipset": "10.1.18460.8299",
+            "csme": "15.0.30.1570",
+            "dptf": "8.7.10402.18389",
+            "hid": "2.2.1.384",
+            "sio": "30.100.2042.1" 
+        },
+        {
+            "kitnumber": "1000830",
+            "plaftorm": "TigerLake UP4",
+            "date": "WW45'2021",
+            "chipset": "10.1.18460.8229",
+            "csme": "15.0.10.1447",
+            "dptf": "8.7.10400.15556",
+            "hid": "2.2.1.384",
+            "sio": "30.100.2031.2" 
+        }
+    ],
+
+    "chipset": [
+        {
+            "version": "",
+            "kitnumber": "",
+            "platform": {
+                "ADP-S": "",
+                "CMP-H": ""
+            }
+        },
+        
+        {
+            "version": "",
+            "kitnumber": "",
+            "platform": {
+                "ADP-S": "",
+                "CMP-H": ""
+            }
+        }
+    ],
+
+    "csme": [
+        {
+            "version": "",
+            "mei": "",
+            "installer": "",
+            "platform": ""
+        }
+    ]
+}}

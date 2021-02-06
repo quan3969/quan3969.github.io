@@ -17,8 +17,16 @@ permalink: /csgo
 2. 添加游戏启动项：`+exec auto.cfg`
 	![startup](assets/img/2020-12-29-csgo-auto-script/startup.gif)
 3. 运行游戏并在命令控制台中输入 auto
+![ms](assets/img/2020-12-29-csgo-auto-script/ms.gif)
+![kb1](assets/img/2020-12-29-csgo-auto-script/kb1.gif)
+![kb2](assets/img/2020-12-29-csgo-auto-script/kb2.gif)
+![kb3](assets/img/2020-12-29-csgo-auto-script/kb3.gif)
 
 ### 更新日志
+* 2021.01.02
+  * 分辨率改为 1440*1080，准星优化并放在 chr3 中。
+  * 最大刷新率放开了，的确能感觉到有区别，于是灵敏度也改低到 0.35.
+
 * 2021.01.30
   * 允许好友加入我的游戏，即使我在练枪、跑图服务器。
   * 调低灵敏度到 0.4.

@@ -8,6 +8,10 @@ permalink: /q3an
 
 * **[收藏夹](/links)** 
 
+* **[Serial Socket](/serialSocket)** 
+
+* **[Test](/test)** 
+
 ### Samsung
 * **[Windows Update](/samsung/wu)** 
 
