@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2021-01-30 19:27:11 +0800
-title:  "CS:GO 自动配置（持续更新）"
+title:  "CS:GO 自动配置"
 permalink: /csgo
 ---
 > “工欲善其事，必先利其器”，好的设置能让你在 CS:GO 比赛中获得更好的发挥。
